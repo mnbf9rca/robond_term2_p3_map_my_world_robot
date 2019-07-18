@@ -1,0 +1,5 @@
+TrajectoryPlannerROS:
+  publish_cost_grid_pc: true
+  holonomic_robot: false
+  pdist_scale: 1.1
+  gdist_scale: 0.5
