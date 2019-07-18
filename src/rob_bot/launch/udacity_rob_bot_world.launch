@@ -10,7 +10,7 @@
   <arg name="debug" default="false"/>
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find rob_bot)/worlds/jackal_race.world"/>
+    <arg name="world_name" value="$(find rob_bot)/worlds/kitchen_dining.world"/>
     <arg name="paused" value="$(arg paused)"/>
     <arg name="use_sim_time" value="$(arg use_sim_time)"/>
     <arg name="gui" value="$(arg gui)"/>
@@ -22,7 +22,7 @@
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -param robot_description -model rob_bot"/>
   <!--launch rviz-->
 
-  <node type="rviz" name="rviz" pkg="rviz" respawn="false" args="-d $(find rob_bot)/rviz/udacity_Rvizconfig.rviz" />
+  <node type="rviz" name="rviz" pkg="rviz" respawn="false" args="-d $(find rob_bot)/rviz/robot_slam.rviz" />
   <include file="$(find rob_bot)/launch/amcl.launch"/>
 
 </launch>
