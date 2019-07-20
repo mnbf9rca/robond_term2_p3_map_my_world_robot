@@ -20,6 +20,8 @@
             <param name="subscribe_depth" type="bool" value="true"/>
             <param name="subscribe_scan" type="bool" value="true"/>
 
+            <param name="Grid/FromDepth" type="string" value="false"/> <!-- occupancy grid from lidar -->
+
             <!-- RTAB-Map Inputs -->
             <remap from="scan" to="$(arg laser_topic)"/>
             <remap from="rgb/image" to="$(arg rgb_topic)"/>
