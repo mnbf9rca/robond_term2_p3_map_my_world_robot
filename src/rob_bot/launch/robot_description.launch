@@ -12,11 +12,6 @@
     <!-- Send robot states to tf -->
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen"/>
 
-    <!--teleop provided by udacity -->
-    <node pkg="rob_bot" type="teleop" name="teleop" output="screen">
-        <param name="scale_linear" value="0.5" type="double"/>
-        <param name="scale_angular" value="1.5" type="double"/>
-        <remap from="teleop/cmd_vel" to="cmd_vel"/>
-    </node>
+
 
 </launch>
