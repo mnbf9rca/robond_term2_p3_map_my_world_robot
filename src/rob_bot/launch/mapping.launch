@@ -19,6 +19,8 @@
             <param name="odom_frame_id" type="string" value="odom"/>
             <param name="subscribe_depth" type="bool" value="true"/>
             <param name="subscribe_scan" type="bool" value="true"/>
+            <!-- http://official-rtab-map-forum.67519.x6.nabble.com/RTABMap-Error-launch-td4501.html -->
+            <param name="visual_odometry" type="bool" value="false"/>
 
             <param name="Grid/FromDepth" type="string" value="false"/> <!-- occupancy grid from lidar http://wiki.ros.org/rtabmap_ros/Tutorials/SetupOnYourRobot -->
 
