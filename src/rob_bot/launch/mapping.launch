@@ -6,7 +6,7 @@
     <arg name="rgb_topic" default="/camera/rgb/image_raw"/>
     <arg name="depth_topic" default="/camera/depth/image_raw"/>
     <arg name="camera_info_topic" default="/camera/rgb/camera_info"/>
-    <arg name="laser_topic" default="/laser/scan"/>
+    <arg name="laser_topic" default="/scan"/>
 
 
     <!-- Mapping Node -->
