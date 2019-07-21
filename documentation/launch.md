@@ -7,5 +7,7 @@
 
 - rostopic list
 - rviz roslaunch rob_bot rviz.launch 
+
+had to enable gpu_ray to get it working
  
 > Written with [StackEdit](https://stackedit.io/).
