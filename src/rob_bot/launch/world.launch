@@ -13,6 +13,7 @@
     <!--<arg name="world_name" value="$(find rob_bot)/worlds/kitchen_dining.world"/> -->
     <!--<arg name="world_name" value="$(find rob_bot)/worlds/robs_town.world"/> -->
     <arg name="world_name" value="$(find rob_bot)/worlds/robs_cafe.world"/>
+    <!-- <arg name="world_name" value="$(arg world_file)"/> -->
     <arg name="paused" value="$(arg paused)"/>
     <arg name="use_sim_time" value="$(arg use_sim_time)"/>
     <arg name="gui" value="$(arg gui)"/>
